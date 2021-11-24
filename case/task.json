@@ -1,0 +1,161 @@
+{
+  "realTimeID": 123,
+  "judgerConfig": {
+    "taskID": "100031",
+    "maxCharBuffer": 10000000,
+    "judgeMode": 0,
+    "strictMode": 1,
+    "workSpacePath": "/home/kalzn/project/judger_queue_manager/case/123",
+    "resultPath": "result.json",
+    "logPath": "/home/kalzn/project/judger_queue_manager/case/log.log",
+    "translator": {
+      "mode": 0,
+      "compilerPath": "/usr/bin/g++",
+      "compilerInfoPath": "compiler.log",
+      "compilerOptions": [
+        "g++",
+        "std.cpp",
+        "-o",
+        "Main"
+      ],
+      "compilerProductName": "Main",
+      "interpreterInfoPath": "interpreter.log"
+    },
+    "data": [
+      {
+        "inputData": "data/1.in",
+        "outputData": "data/output.out",
+        "stdAnswer": "data/1.out",
+        "maxCPUTime": 5000,
+        "maxMemory": 102400,
+        "maxStack": 1024000
+      },
+      {
+        "inputData": "data/2.in",
+        "outputData": "data/output.out",
+        "stdAnswer": "data/2.out",
+        "maxCPUTime": 5000,
+        "maxMemory": 102400,
+        "maxStack": 1024000
+      },
+      {
+        "inputData": "data/3.in",
+        "outputData": "data/output.out",
+        "stdAnswer": "data/3.out",
+        "maxCPUTime": 5000,
+        "maxMemory": 102400,
+        "maxStack": 1024000
+      },
+      {
+        "inputData": "data/4.in",
+        "outputData": "data/output.out",
+        "stdAnswer": "data/4.out",
+        "maxCPUTime": 5000,
+        "maxMemory": 102400,
+        "maxStack": 1024000
+      },
+      {
+        "inputData": "data/5.in",
+        "outputData": "data/output.out",
+        "stdAnswer": "data/5.out",
+        "maxCPUTime": 5000,
+        "maxMemory": 102400,
+        "maxStack": 1024000
+      },
+      {
+        "inputData": "data/6.in",
+        "outputData": "data/output.out",
+        "stdAnswer": "data/6.out",
+        "maxCPUTime": 5000,
+        "maxMemory": 102400,
+        "maxStack": 1024000
+      },
+      {
+        "inputData": "data/7.in",
+        "outputData": "data/output.out",
+        "stdAnswer": "data/7.out",
+        "maxCPUTime": 5000,
+        "maxMemory": 102400,
+        "maxStack": 1024000
+      }
+    ],
+    "CodeSourcePath": "/home/kalzn/project/judger_queue_manager/case/test_sample_0/std.cpp",
+    "CodeFileName": "std.cpp",
+    "DataSourcePath": "/home/kalzn/project/judger_queue_manager/case/test_sample_0"
+  },
+  "resultConfig": {
+    "taskID": "100031",
+    "doneTime": "2021-11-23 19:07:22",
+    "judgeTime": 6607,
+    "extraTime": 445,
+    "result": [
+      {
+        "time": 0,
+        "realTime": 2,
+        "memory": 3532,
+        "signal": 0,
+        "code": 0,
+        "result": 0,
+        "detail": "No info"
+      },
+      {
+        "time": 1,
+        "realTime": 1,
+        "memory": 3544,
+        "signal": 0,
+        "code": 0,
+        "result": 0,
+        "detail": "No info"
+      },
+      {
+        "time": 0,
+        "realTime": 2,
+        "memory": 3520,
+        "signal": 0,
+        "code": 0,
+        "result": 0,
+        "detail": "No info"
+      },
+      {
+        "time": 1,
+        "realTime": 2,
+        "memory": 3636,
+        "signal": 0,
+        "code": 0,
+        "result": 0,
+        "detail": "No info"
+      },
+      {
+        "time": 1,
+        "realTime": 1,
+        "memory": 3588,
+        "signal": 0,
+        "code": 0,
+        "result": 0,
+        "detail": "No info"
+      },
+      {
+        "time": 3050,
+        "realTime": 3064,
+        "memory": 3536,
+        "signal": 0,
+        "code": 0,
+        "result": 0,
+        "detail": "No info"
+      },
+      {
+        "time": 3080,
+        "realTime": 3090,
+        "memory": 3588,
+        "signal": 0,
+        "code": 0,
+        "result": 0,
+        "detail": "No info"
+      }
+    ]
+  },
+  "logString": "No info.",
+  "compilerInfoString": "",
+  "interpreterInfoString": "",
+  "TaskInfo": "No info."
+}

@@ -1,0 +1,63 @@
+{
+	"taskID":	100031,
+	"doneTime":	"2021-11-23 17:41:19",
+	"judgeTime":	1,
+	"extraTime":	1,
+	"result":	[{
+			"time":	0,
+			"realTime":	0,
+			"memory":	0,
+			"signal":	0,
+			"code":	0,
+			"result":	9,
+			"detail":	"No root"
+		}, {
+			"time":	0,
+			"realTime":	0,
+			"memory":	0,
+			"signal":	0,
+			"code":	0,
+			"result":	8,
+			"detail":	"No info"
+		}, {
+			"time":	0,
+			"realTime":	0,
+			"memory":	0,
+			"signal":	0,
+			"code":	0,
+			"result":	8,
+			"detail":	"No info"
+		}, {
+			"time":	0,
+			"realTime":	0,
+			"memory":	0,
+			"signal":	0,
+			"code":	0,
+			"result":	8,
+			"detail":	"No info"
+		}, {
+			"time":	0,
+			"realTime":	0,
+			"memory":	0,
+			"signal":	0,
+			"code":	0,
+			"result":	8,
+			"detail":	"No info"
+		}, {
+			"time":	0,
+			"realTime":	0,
+			"memory":	0,
+			"signal":	0,
+			"code":	0,
+			"result":	8,
+			"detail":	"No info"
+		}, {
+			"time":	0,
+			"realTime":	0,
+			"memory":	0,
+			"signal":	0,
+			"code":	0,
+			"result":	8,
+			"detail":	"No info"
+		}]
+}

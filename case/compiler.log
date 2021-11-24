@@ -1,0 +1,3 @@
+g++: error: std.cpp: 没有那个文件或目录
+g++: fatal error: no input files
+compilation terminated.

@@ -1,0 +1,22 @@
+{
+  "maxCharBuffer" : 10000000,
+  "taskID":"100031",
+  "workSpacePath":"/home/kalzn/project/judger_queue_manager/case",
+  "logPath":      "/home/kalzn/project/judger_queue_manager/case/log.log",
+  "judgeMode":0,
+  "strictMode":1,
+  "resultPath":"result.json",
+  "sPJ":false,
+  "translator": {
+    "mode": 0,
+    "compilerPath": "/usr/bin/g++",
+    "compilerInfoPath": "compiler.log",
+    "compilerOptions":[
+      "g++", "std.cpp", "-o", "Main"
+    ],
+    "compilerProductName":"Main",
+    "interpreterInfoPath" : "interpreter.log"
+  }
+}
+
+
