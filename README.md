@@ -167,6 +167,8 @@ Leader Server需要向Judger Server提供以下接口
 ]
 ```
 ### 使用token配置Leader Server
+当Judger Server启动后，会自动生成一个token，你可以也只能使用这个token改变JudgerServer从属的LeaderServer，你也可以在Judger Server的日志文件中找到这个token。尽管如此，仍不建议将Leader Server和Judger Server由公开网络建立链接，尽量使私有网络链接。
+![DR46`7O7)CFE9A P~_}JGYS](https://user-images.githubusercontent.com/44296812/144430364-8ce43a52-e4aa-40d8-b39a-b0fbabc0ef91.png)
 
 ### 服务器配置yaml
 ```yaml
