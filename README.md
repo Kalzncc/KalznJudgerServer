@@ -145,6 +145,8 @@ Leader Server需要向Judger Server提供以下接口
 ```
 ### data.zip 评测数据包
 在评测数据包中，处理数据外，最重要的是index.json文件，此文件是数据文件清单，用于Judger Server解析数据，文件中记录了数据文件清单，及每个文件的资源限制信息。index.json应为每个编程语言准备一份。所以对于每个compilerID，data.zip中都存在文件compilerID/index.json，以表示该语言的数据清单。如果这个题目需要spj，则编译好的spj程序需要被命名为spj，置于压缩包根目录。以下是一个标准的含有spj的评测数据包目录：
+![GA_ MYNR7XT9_YAN@UTEY91](https://user-images.githubusercontent.com/44296812/144433026-6a763361-4304-4fb7-b4ef-8adb33a92459.png)
+
 其中index.json的内容举例，具体含有请见Judger Core库的介绍：
 ```json
 [
