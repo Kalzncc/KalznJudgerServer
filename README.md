@@ -2,7 +2,7 @@
 
 ## 了解本JudgerServer
 ### 基本情况
-Kalzn judger server是用于Online Judge的评测服务器，用于接受Online Judge的评测任务请求。其中任务队列及评测数据处理引擎基于Spring（MVC），整合为SpringBoot。评测核心基于ASNI C。在此进入<a ref = "https://github.com/Kalzncc/KalznCodeJudger">Judger Core仓库</a>以了解评测核心。在本服务器运行时，要配置指定另一个Leader Server，本服务器以p2p的方式与之通信。Leader Server用于向Judger Server发布评测任务，并提供评测数据的支持，Judger Server每次只能与一个Leader Server建立从属关系，Leader Server可以管理数个Judger Server。
+Kalzn judger server是用于Online Judge的评测服务器，用于接受Online Judge的评测任务请求。其中任务队列及评测数据处理引擎基于Spring（MVC），整合为SpringBoot。评测核心基于ASNI C。在此进入<a href = "https://github.com/Kalzncc/KalznCodeJudger">Judger Core仓库</a>以了解评测核心。在本服务器运行时，要配置指定另一个Leader Server，本服务器以p2p的方式与之通信。Leader Server用于向Judger Server发布评测任务，并提供评测数据的支持，Judger Server每次只能与一个Leader Server建立从属关系，Leader Server可以管理数个Judger Server。
 ### Http接口列表
 Judger Server将向Leader Server提供以下接口
 |接口url|参数|作用|
@@ -39,9 +39,9 @@ Leader Server需要向Judger Server提供以下接口
 |dataID|任务的评测数据的ID号。|
 |compilerID|任务所使用的编译器ID号|
 |sPJ|bool型，是否启用spj|
-|judgeMode|核心的评测模式，详情请见<a ref = "https://github.com/Kalzncc/KalznCodeJudger">Judger Core仓库</a>的解释|
-|strictMode|核心严格模式，详情请见<a ref = "https://github.com/Kalzncc/KalznCodeJudger">Judger Core仓库</a>的解释|
-|iOMode|核心IO模式，详情请见<a ref = "https://github.com/Kalzncc/KalznCodeJudger">Judger Core仓库</a>的解释|
+|judgeMode|核心的评测模式，详情请见<a href = "https://github.com/Kalzncc/KalznCodeJudger">Judger Core仓库</a>的解释|
+|strictMode|核心严格模式，详情请见<a href = "https://github.com/Kalzncc/KalznCodeJudger">Judger Core仓库</a>的解释|
+|iOMode|核心IO模式，详情请见<a href = "https://github.com/Kalzncc/KalznCodeJudger">Judger Core仓库</a>的解释|
 下面是一个例子：
 ```json
 {
