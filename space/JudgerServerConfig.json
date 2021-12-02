@@ -1,0 +1,55 @@
+{
+  "serverID" : 123,
+  "maxJsonFileSize" : 100000000,
+  "judgerCorePath" : "/home/kalzn/project/git/JudgerServer/space/CoreSpace/judger",
+  "judgerCoreLogPath" : "/home/kalzn/project/git/JudgerServer/space/CoreSpace/log.log",
+  "judgerWorkSpace" : "/home/kalzn/project/git/JudgerServer/space/WorkSpace",
+  "judgerDataSpacePath": "/home/kalzn/project/git/JudgerServer/space/DataSpace",
+  "judgerCodeSpacePath" : "/home/kalzn/project/git/JudgerServer/space/CodeSpace",
+
+  "leaderServerUrl" : "http://localhost:8080",
+  "leaderServerTimeout": 5000,
+  "DataDownloadBufferSize" : 1024,
+  "maxSPJTime" : 30000,
+  "maxSPJMemory": 1024000,
+  "maxBufferChar": 100000000,
+  "maxTaskRunningSize" : 10,
+  "maxTaskWaitingSize": 100,
+  "minActiveTaskThreadPoolNumber": 5,
+  "TaskThreadActiveTime": 500,
+  "ResultAcceptWay": 0,
+
+  "dataSpaceMaxSize": 1,
+  "dataSpaceClearSize": 1,
+  "dataSpaceSizeCheckTime": 30,
+
+  "translators" : {
+    "1" : {
+      "translatorID": 1,
+      "mode": 0,
+      "codeFileName": "main.cpp",
+      "compilerPath": "/usr/bin/g++",
+      "compilerInfoPath": "compiler.log",
+      "compilerOptions" : [
+        "g++", "main.cpp", "-o", "main"
+      ],
+      "compilerProductName": "main"
+    },
+    "2": {
+      "translatorID": 2,
+      "mode": 2,
+      "codeFileName": "Main.java",
+      "compilerPath": "/usr/bin/javac",
+      "compilerInfoPath": "compiler.log",
+      "compilerOptions" : [
+        "javac", "Main.java"
+      ],
+      "compilerProductName": "Main.class",
+      "interpreterPath" : "/usr/bin/java",
+      "interpreterInfoPath": "interpreter.log",
+      "interpreterOptions": [
+        "java", "Main"
+      ]
+    }
+  }
+}

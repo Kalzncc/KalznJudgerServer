@@ -1,0 +1,67 @@
+server:
+  port: 8082
+logging:
+  file:
+    name: /home/kalzn/project/git/JudgerServer/space/LogSpace/server_log.log
+  level:
+    root: warn
+    com.kalzn.judger.runner: info
+
+judger:
+  server-id: 123
+  max-json-file-size: 100000000
+  judger-core-path: /home/kalzn/project/git/JudgerServer/space/CoreSpace/judger
+  judger-core-log-path: /home/kalzn/project/git/JudgerServer/space/LogSpace/core_log.log
+  judger-work-space: /home/kalzn/project/git/JudgerServer/space/WorkSpace
+  judger-data-space-path: /home/kalzn/project/git/JudgerServer/space/DataSpace
+  judger-code-space-path: /home/kalzn/project/git/JudgerServer/space/CodeSpace
+  leader-server-url: http://localhost:8080
+  config-token-length: 32
+  leader-server-timeout: 5000
+  data-download-buffer-size: 1024
+  max-spj-time: 30000
+  max-spj-memory: 1024000
+  max-buffer-char: 100000000
+  max-task-running-size: 10
+  max-task-waiting-size: 100
+  min-active-task-thread-pool-number: 5
+  task-thread-active-time: 500
+  result-accept-way: 0
+  data-space-max-size: 300
+  data-space-clear-size: 128
+  data-space-size-check-time: 30
+  translators:
+    1:
+      translator-id: 1
+      mode: 0
+      code-file-name: main.cpp
+      compiler-path: /usr/bin/g++
+      compiler-info-path: compiler.log
+      compiler-options: [g++, main.cpp, -o, main]
+      compiler-product-name: main
+    2:
+      translator-id: 2
+      mode: 2
+      code-file-name: Main.java
+      compiler-path: /usr/bin/javac
+      compiler-info-path: compiler.log
+      compiler-options: [javac, Main.java]
+      compiler-product-name: Main.class
+      interpreter-path: /usr/bin/java
+      interpreter-info-path: interpreter.log
+      interpreter-options: [java, Main]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
